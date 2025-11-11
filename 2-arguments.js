@@ -1,15 +1,14 @@
-let command = process.argv[2];
+ const args = Processargv.slice(2);
 
-if (command === '') {
-console.log('No arguments'); 
+ const numArgv= args.length;
 
-} else if (command === 'Best') {
-console.log('Argument found');
-
-} else {
-console.log.("Arguments found"); 
-
-}
+ if (numArgv === 0) {
+    console.log("No argument");
+ } esle if (numArgv === 1) {
+    console.log("Argument found");
+ } else {
+    console.log("arguments found");
+ }
     
 
 
