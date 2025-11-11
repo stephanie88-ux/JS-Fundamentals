@@ -1,9 +1,9 @@
-if (Process.argv.includes("js")) {
+if Process.argv("js") {
 console.log("No arguments");
-} else if (process.argv.includes("Best")){
+} else if process.argv,("Best") {
 console.log("Argument found");
 } else {
-console.log.includes("Arguments found"); 
+console.log.("Arguments found"); 
 }
     
 
