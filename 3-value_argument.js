@@ -1,9 +1,9 @@
 const args= Process.argv.slice(2);
 
-if (args === 4) {
+if (args === undefined) {
  console.log=("No argument");
 } else {
- console.log(school);
+ console.log(args[0]);
 }
 
  
