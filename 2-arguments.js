@@ -1,14 +1,14 @@
- const args = Processargv.slice(2);
+const args = process.argv.length;
 
- const numArgv= args.length;
-
- if (numArgv === 0) {
-    console.log("No argument");
- } esle if (numArgv === 1) {
-    console.log("Argument found");
- } else {
-    console.log("arguments found");
- }
+if (args === 2) {
+  console.log("No argument");
+} else if (args === 3) {
+  console.log("Argument found");
+} else {
+ console.log("Arguments found");
+}
+   
+ 
     
 
 
