@@ -1,8 +1,11 @@
-const message1 = ("c cool");
-console.log("c is cool");
+const args= process.argv.slice(2);
 
-const message2 = ("c");
-console.log("c is undefined");
+ 
+const arg1 = args[0];
+const arg2 = args[1];
+console.log(arg1 + " is " + arg2)
+ 
 
-const message3 =();
-console.log("undefined is undefined");
+
+
+
