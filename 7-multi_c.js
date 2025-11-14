@@ -4,9 +4,14 @@
     console.log("Missing number of occurences");
  } else {
     let i = 0
-   while (i < x) {
+   while (i < x)  {
     console.log("C is fun");
- {
+   }
+    console.log("C is fun");
+    {
+        
+    }
+ 
 
       
    
