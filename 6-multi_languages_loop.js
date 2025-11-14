@@ -1,6 +1,8 @@
 const lines = [ "C is fun", "Python is cool", "JavaScript is amazing"];
 
 for (let i = 0; i < lines.length; i++ ) {
-    console.log("C is fun", "Pythin is cool", "JavaScript is amazing");
+    console.log("C is fun", 
+        "Python is cool", 
+        "JavaScript is amazing");
 }
    
