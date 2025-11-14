@@ -5,8 +5,11 @@ const lines = [
 
      let i = 0
     
- { while ( i < lines.length);
-console.log;("i");
+ { while ( i < lines.length) {
+console.log;("C is fun");
 i++; 
+
+}
+
 }
    
