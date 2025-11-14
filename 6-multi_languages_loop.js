@@ -5,7 +5,7 @@ const lines = [
 
      let i = 0
     
- { while ( i < lines) {
+ { while ( i < lines); {
 console.log;("C is fun");
 i++; 
 
