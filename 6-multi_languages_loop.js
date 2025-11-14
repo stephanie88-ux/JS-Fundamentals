@@ -1,6 +1,10 @@
 const lines = [ "C is fun", "Python is cool", "JavaScript is amazing"];
- let i = 0;
+
+ let text1 = "C is fun";
+ let text2 = ("Python is fun");
+ let text3 = ("JavaScript");
+
   while (i < lines.length); {
-    console.log("C is fun", "JavaSript", "JavaScript is amazing");
+    console.log("C is fun");
 }
    
