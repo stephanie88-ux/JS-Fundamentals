@@ -5,7 +5,7 @@ const lines = [
 
      let i = 0
     
- { while ( i < "C is fun")
+ { while ( i < lines.length)
 console.log("C is fun",
         "Python is cool",
         "JavaScript is amazing");
