@@ -5,6 +5,8 @@ const lines = [ "C is fun", "Python is cool", "JavaScript is amazing"];
  let text3 = ("JavaScript");
 
  {
-    console.log("C is fun", "Python is cool", "JavaScript");
+    console.log("C is fun", 
+        "Python is cool", 
+        "JavaScript is amazing");
 }
    
