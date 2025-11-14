@@ -1,6 +1,6 @@
 const x = Number(process.argv[2]);
 
- if (Number.isNaN(size)) {
+ if (Number.isNaN(square)) {
     console.log("Missing size");
  } else {
     let i = 0;
