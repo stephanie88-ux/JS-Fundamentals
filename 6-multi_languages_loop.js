@@ -1,4 +1,6 @@
-let i = 0;
-while (i < 5) {
-    console.log("C is fun");
+const lines = [ "C is fun", "Python is cool", "JavaScript is amazing"];
+
+for (let i = 0; i < lines.length; i++ ) {
+    console.log("lines[i]");
 }
+   
