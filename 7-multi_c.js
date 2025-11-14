@@ -1,4 +1,4 @@
- const x = Number(Process.argv[2]);
+ const x = Number(process.argv[2]);
 
  if (Number.isNaN(x)) {
     console.log("Missing number of occurences");
@@ -7,10 +7,8 @@
    while (i < x)  
     console.log("C is fun");
  }
-    let i = 0
-   while (i < x)  {
-    console.log("C is fun");
-   }
+     
+   
 
  
 
